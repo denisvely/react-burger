@@ -1,0 +1,8 @@
+.content {
+    margin-top: 82px;
+}
+@media (min-width: 1025px) {
+    .content {
+       min-height: 770px;
+    }
+}

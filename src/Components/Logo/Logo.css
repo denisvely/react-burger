@@ -1,0 +1,36 @@
+.Logo {
+    background-color: white;
+    padding: 8px;
+    height: 80%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50px;
+}
+.Logo img {
+    height: 100%;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+@media (max-width: 500px) {
+    .SideDrawer .Logo {
+        position: relative;
+        margin: 0;
+        background: transparent;
+        margin-bottom: 20px;
+    }
+    .SideDrawer .Logo img {
+        height: 65px;
+        max-width: 65px;
+        margin: 0;
+    }
+    .Toolbar .Logo {
+        left: unset;
+        right: 20px;
+    }
+}
